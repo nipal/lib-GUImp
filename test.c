@@ -6,12 +6,24 @@
 /*   By: fjanoty <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/21 17:54:43 by fjanoty           #+#    #+#             */
-/*   Updated: 2020/01/21 17:56:08 by fjanoty          ###   ########.fr       */
+/*   Updated: 2020/01/21 18:08:40 by fjanoty          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 
 #include "stdio.h"
+
+int		super_one()
+{
+	return (1);
+}
+
+void	simple_function()
+{
+	int	a = 3;
+
+	a = a + 4;
+}
 
 int	main(int ac, char** av)
 {
