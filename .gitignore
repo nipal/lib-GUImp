@@ -1,0 +1,6 @@
+# vim temporary files
+*.sw*
+.*.sw*
+
+# c object files
+*.o
